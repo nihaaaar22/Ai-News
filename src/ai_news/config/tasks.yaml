@@ -1,0 +1,16 @@
+search_task:
+  description: >
+    Make a google search for news on {topic}. 
+    Make sure you find any interesting and relevant information given
+    the current year is 2024.
+  expected_output: >
+    A list of 3 urls with the most relevant everything covered information on {topic}
+  agent: newsresearcher
+
+scraping_task:
+  description: >
+    Scrape the website for the latest news and information.
+  expected_output: >
+    Fully Scraped website with the most important information and latest about {topic} in a 
+    structured way.'```'
+  agent: scraper
